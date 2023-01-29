@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.subContainer {
+    margin: auto;
+    width: 80%;
+    font-size: 0;
+}
+
+.commonContainer {
+    width: 100%;
+    padding: 100px 0px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #616161;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #061173;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: #061173;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #0A0A0A;
+
+}
+
+/* header styles */
+.navBar {
+    width: 100%;
+    height: 144px;
+    background: #061173;
+}
+
+.logo {
+    float: left;
+    display: flex;
+    width: 20%;
+    align-items: center;
+    padding: 48px 48px 48px 0px;
+}
+
+.navItems {
+    float: left;
+    width: 70%;
+    margin: 0;
+    padding: 58px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bars {
+    float: left;
+    width: 5%;
+    margin: 0;
+    padding: 54px 0px;
+    color: white;
+    font-size: 36px;
+    text-align: right;
+}
+
+.navItems a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+
+/* search bar */
+.searchArea {
+    width: 100%;
+    height: 42px;
+}
+
+.searchBar {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
+.searchField {
+    float: left;
+    width: 95.5%;
+    height: 42px;
+    font-size: 28px;
+    padding: 5px 0px;
+}
+
+.searchIcon {
+    float: left;
+    width: 42px;
+    height: 42px;
+    font-size: 28px;
+    padding: 5px 0px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 1455px) {
+    .navItems {
+        display: none;
+    }
+
+    .bars {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .bars {
+        width: 73%;
+    }
+
+    .searchField {
+        width: 93.5%;
+    }
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+/* image area strts here */
+.imageBox {
+    width: 100%;
+    max-height: 880px;
+    background-image: url("/images/main.jfif");
+    background-position: top;
+
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageText {
+    color: white;
+    font-size: 96px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* other */
+.productsArea {
+
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 30%;
+    margin-right: 3%;
+    display: inline-block;
+    height: 600px;
+    margin-bottom: 50px;
+    background-color: #FFFFFF;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardData {
+    padding: 60px 0px 0px 30px;
+    background-color: #FFFFFF;
+}
+
+.cardImage {
+    width: 100%;
+    height: 454px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardIcon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    color: #079CBD;
+}
+
+.cardTitle {
+    margin-left: 30px;
+    float: left;
+    font-size: 24px;
+    color: #061173;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+}
+
+@media only screen and (max-width: 1062px) {
+
+    .card {
+        margin-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+
+    .card {
+        width: 45%;
+    }
+}
+
+.partnerBox {
+    display: inline-flex;
+    background-color: #F5F5F5;
+    width: 18%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnerBox img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain
+}
+
+.button {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 8px;
+    width: 164px;
+    height: 59px;
+    background: #061173;
+    color: white;
+
+}
+
+/* footer style */
+.footerLeft {
+    float: left;
+    height: 384px;
+    width: 30%;
+
+}
+
+.footerRight {
+    float: left;
+    height: 384px;
+    width: 70%;
+
+}
+
+.footerLogoArea {
+    width: 100%;
+    height: 111px;
+}
+
+.footerLogoBox {
+    float: left;
+    width: 180px;
+}
+
+.footerLogo {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.noteArea {
+    width: 100%;
+    height: 153px;
+    padding: 50px 0px 0px 0px;
+}
+
+.noteArea p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.012em;
+    color: #FFFFFF;
+}
+
+.noteArea h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.socialArea {
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+
+.socialArea h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.menuBlock {
+    float: left;
+    width: 16.66%;
+    height: 384px;
+}
+
+.footerRight p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    color: #C2C2C2;
+
+}
+
+.footerRight h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}

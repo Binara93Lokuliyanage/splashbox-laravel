@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins&display=swap');
+
+    body {
+        border: 0;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family: 'Aboreto', cursive;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    h1{
+        color: white;
+        font-size: 22px;
+    }
+    .loginBox {
+        width: 400px;
+        padding: 10px 0px;
+        margin: auto;
+        background-color: #241761;
+        margin-top: 50px;
+    }
+    input[type=text], 
+    input[type=password],
+    input[type=number] {
+  width: 80%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #b7b2d1;
+}
+input[type=number]{
+    width: 40%;
+}
+.button {
+  background-color: #b7b2d1; /* Green */
+  border: none;
+  color: #241761;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button:hover {
+  color: white;
+}
+.registerBox {
+    width: 400px;
+    padding: 10px 0px;
+    margin: auto;
+    background-color: #241761;
+    margin-top: 50px;
+}
+p {
+    color: white;
+    font-size: 12px;
+}
